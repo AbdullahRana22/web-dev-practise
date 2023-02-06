@@ -1,0 +1,47 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #343434;
+    padding: 15px;
+    align-items: center;
+}
+.logo{
+    margin-left: 1em;
+}
+nav {
+    background-color: black;
+    margin-right: 1em;
+}
+nav ul{
+    display: flex;
+    column-gap: 2em;
+    padding: 2px;
+    margin: 10px;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+}
+#content{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 1em;
+}
+.articlesection{
+    display: flex;
+    margin-top: 1em;
+    column-gap: 2em;
+}
+.articlesection .article img{
+    width: 100%;
+}
+.articlesection .article div,
+.articlesection,.article p {
+    padding: 0.2em;
+}
